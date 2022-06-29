@@ -1,0 +1,201 @@
+/*                         IMAGEM CARTAO */
+.checkout{
+    width: 25vw;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 188, 235);
+}
+
+.meuCartao{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 150, 3);
+    width: 20vw;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(233, 116, 7);
+}
+
+.meuCartao span{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+/* IMAGEM CARTÃO: NOME E CHIP */
+ .imagemBandeira{
+    width: 50px;
+    height: 50px;
+    margin: 80px 20px 0 20px;
+}
+
+.nomeBandeira{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.nomeCartao{
+    margin: 70px 20px 0 20px;
+}
+
+/* IMAGEM CARTAO: NUMERO DO CARTAO */
+
+.cartaoApresentacao{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.textoCartao{
+    margin: 10px 20px 0 20px;
+}
+
+/* IMAGEM CARTAO: VALIDADE E CVV */
+
+.validade-cvv{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 10px 20px 0 20px;
+}
+
+.labelValidade{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelValidade label{
+    color:purple;
+    font-size: 10px;
+    margin: 0 0 2px 5px;
+}
+
+.validade{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.labelCvv{
+    display: flex;
+    flex-direction: column;
+}
+
+.labelCvv label{
+    color: purple;
+    font-size: 10px;
+    margin-left: 5px;
+    margin: 0 0 2px 5px;
+}
+
+/*             DADOS DO USUÁRIO */
+
+.dadosUsuario{
+    margin-top: 20px;
+}
+
+.dadosUsuario span{
+    font-size: 20px;
+    color:black;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+}
+
+/* NOME DO TITULAR */
+
+.nomeTitular{
+    border: none;
+    border-bottom: 1px solid purple;
+    margin-top: 20px;
+}
+
+.nomeTitular:focus{
+    outline: none;
+}
+
+/* NUMERO DO CARTAO */
+
+.numeroCartao{
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+}
+
+.inputNumero{
+    border:none;
+    border-bottom: 1px solid purple;
+    margin-right:  0.2vw;
+    width: 4.7vw;
+}
+
+.inputNumero:focus{
+    outline: none;
+}
+
+/* VALIDADE E CVV */
+
+select{
+    text-align: start;
+    border: none;
+    border-bottom: 1px solid purple;
+    color:black;
+    font-size: 15px;
+    background-color: rgb(235, 188, 235);
+}
+
+select:focus{
+    outline: none;
+}
+
+.cvv{
+    width: 40px;
+    border: none;
+    border-bottom: 1px solid purple;
+    margin-left: 30px;
+}
+
+.cvv:focus{
+    outline: none;
+}
+
+#mês{
+    margin: 0 10px 0 0;
+}
+
+input{
+
+    width: 20vw;
+    height: 25px;
+    margin-bottom: 15px;
+    background-color: rgb(235, 188, 235);
+    color:black;
+}
+
+input::placeholder{
+    color:black;
+    text-align: start;
+    font-size: 15px;
+}
+
+/* BOTÃO */
+
+button{
+    background-color: rgb(235, 188, 235);
+    border: 2px solid purple;
+    border-radius: 5px;
+    height: 40px;
+    color:black;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: rgb(85, 26, 85);
+    color:white
+}
