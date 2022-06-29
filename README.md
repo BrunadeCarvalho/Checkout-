@@ -1,2 +1,3 @@
-# Checkout-
-Cartão de crédito para pagamento de compras
+Projeto Checkout
+Pagina para pagamento de compras através do cartão de crédito: 
+
